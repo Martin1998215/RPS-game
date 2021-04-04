@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="game.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="cover">
+            <h2>Game</h2>
+            <h3 style="text-align:center"><i>Rock, Paper, Scissors</i></h3>
+        </div>
+
+        <div class="keys">
+
+            <div class="key-main">
+                <div class="key">
+                    <h5>Key</h5>
+                </div>
+                <div class="key-list">
+                    <h6>Rock</h6>
+                    <h6>Paper</h6>
+                    <h6>Scissors</h6>
+                </div>
+            </div>
+
+            <div class="key-main">
+                <div class="value">
+                    <h5>Value</h5>
+                </div>
+                <div class="key-list">
+                    <h6>R</h6>
+                    <h6>P</h6>
+                    <h6>S</h6>
+                </div>
+            </div>
+
+        </div>
+
+        <input type="text" class="screen" placeholder="Whats your Choice (Value)?" />
+        <div class="main">
+            <div class="main-head">
+                <div class="head-1">
+                    <h4 style="color: blue;">Player</h4>
+                    <h5 class="user-answer">Value</h5>
+                </div>
+                <div class="head-1">
+                    <h4 style="color: blue;">Computer</h4>
+                    <h5 class="computer-answer">Value</h5>
+                </div>
+            </div>
+            <h3 class="answer">Result</h3>
+        </div>
+        <div class="score-data">
+            <div class="score">
+                <div class="score-1">
+                    <h4>Overall Score</h4>
+                    <h2 class="mark">0</h2>
+                </div>
+                <div class="score-1">
+                    <h4>Attempts</h4>
+                    <h2 class="attempt">0</h2>
+                </div>
+            </div>
+            <table>
+                <tr class="table-head">
+                    <th>Records</th>
+                    <th>No#</th>
+                    <th>Win</th>
+                    <th>Draw</th>
+                    <th>Loose</th>
+                    <th>Score</th>
+                </tr>
+                <tr class="player-head">
+                    <th>Player</th>
+                    <td class="played-games">0</td>
+                    <td class="player-wins">0</td>
+                    <td class="player-draws">0</td>
+                    <td class="player-looses">0</td>
+                    <td class="player-score">0</td>
+                </tr>
+                <tr class="computer-head">
+                    <th>Computer</th>
+                    <td class="played-games-computer">0</td>
+                    <td class="computer-wins">0</td>
+                    <td class="computer-draws">0</td>
+                    <td class="computer-looses">0</td>
+                    <td class="computer-score">0</td>
+                </tr>
+            </table>
+
+        </div>
+        <div class="bottom">
+            <button type="button" class="btn">Enter</button>
+        </div>
+    </div>
+    <div class="cancel">
+        Cancel here
+    </div>
+    <script src="game.js"></script>
+</body>
+
+</html>
